@@ -1,0 +1,65 @@
+.form-field {
+    height: 50px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.container {
+    margin: 30px;
+}
+
+.label {
+    font-size: 36px;
+    color: #004E3B;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.fake-btn {
+    color: grey;
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+.title {}
+
+.dragndrop {
+    min-height: 150px;
+    background-color: lightgray;
+    border-style: dashed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icon {
+    color: #004E3B;
+    font-size: 30px;
+}
+
+.item-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.item {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.bell {
+    display: flex;
+    justify-content: end;
+}

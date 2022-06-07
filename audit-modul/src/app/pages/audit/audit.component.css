@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.audit-input-section {
+    flex: 75;
+
+}
+
+.audit-calendar {
+    flex: 20;
+}
+
+.divider-container {
+    flex: 2;
+    align-items: center;
+}
+
+.divider {
+    background-color: lightgray;
+    height: calc(100vh - 50px);
+    width: 4px;
+    overflow: hidden;
+}
